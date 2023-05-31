@@ -1,22 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title> Welcome! </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Hello!</title>
   </head>
   <body>
-    <div class="container">
-      <div class="blurb">
-        <h1>Hi there, I'm Jasmine Ojeda!</h1>
-        <p>Who am I?</p>
-      </div>
+    <div class="container-fluid justify-content-left" style="margin-bottom:10px; background-color: rgb(223, 230, 232);">
+        <img src="assets/images/profile_pic.jpeg" alt="Picture of Jasmine Ojeda"
+          style="float:left; width: 150px; margin:1%; border-radius:50%; border: solid 5px rgb(55, 78, 181);">
+        <div class="container-fluid justify-content-center">
+        <h1 style="padding-top:5%;"> Hi there, I'm Jasmine Ojeda! </h1>
+        <div style="--bs-breadcrumb-divider: ' ';" aria-label="breadcrumb">
+          <ol class="breadcrumb text-primary-emphasis">
+            <li class="breadcrumb-item">
+                <a href="mailto:jasmineojeda01@gmail.com"> Email </a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="https://github.com/JasmineOjeda"> GitHub </a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="assets/documents/Resume 2023.pdf"> Resume </a>
+            </li>
+          </ul>
+        </div>
+        </div>
     </div>
-    <footer>
-      <ul>
-        <li><a href="mailto:jasmineojeda01@gmail.com">My Email!</a></li>
-        <li>
-          <a href="https://github.com/JasmineOjeda">github.com/JasmineOjeda</a>
-        </li>
-      </ul>
-    </footer>
+    <div class="container justify-content-center">
+        <div class="row justify-content-center">
+          <div class="col-sm-3">
+            <h3> Graduate </h3>
+            <p> I am an alumn of the University of California, Riverside. Year of 2023, with a Bachelors of Science in Computer Science!</p>
+          </div>
+          <div class="col-sm-3">
+            <h3> Developer </h3>
+            <p> My focus is on software development for web and mobile applications. </p>
+          </div>
+          <div class="col-sm-3">
+            <h3>Artist</h3>        
+            <p> My hobbies consist of the arts. They range from painting, crafting, drawing, writing, and game development!</p>
+          </div>
+        </div>
+      </div>
+      <div class="container justify-content-center" style="margin:1%; text-align:center;">
+        <a href="https://jasmine-rock-paper-scissors.netlify.app/"> A round of rock, paper, scissors? </a>
+      </div>
   </body>
 </html>
